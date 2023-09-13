@@ -57,10 +57,10 @@ super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
 super + shift + u
-        wg-quick up /home/qapfuc/WireGuard/wireguard.conf
+        sudo wg-quick up /home/qapfuc/WireGuard/wireguard.conf
 
 super + shift + d
-        wg-quick down /home/qapfuc/WireGuard/wireguard.conf
+        sudo wg-quick down /home/qapfuc/WireGuard/wireguard.conf
     
 
 
