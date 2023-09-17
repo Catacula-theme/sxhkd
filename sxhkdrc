@@ -45,8 +45,10 @@ XF86AudioRaiseVolume
 	pactl set-sink-volume 0 +10%
 XF86AudioLowerVolume
 	pactl set-sink-volume 0 -10%
-XF86AudioMuteVolume
+XF86AudioMute
         amixer set Master toggle 
+XF86AudioMicMute
+        pactl set-source-mute @DEFAULT_SOURCE@ toggle
 # state/flags
 #
 
